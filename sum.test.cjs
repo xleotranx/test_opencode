@@ -1,1 +1,1 @@
-const {test}=require('node:test');const assert=require('node:assert/strict');const sum=require('./sum.cjs');test('positive',()=>assert.equal(sum(2,3),5));test('negative',()=>assert.equal(sum(-2,2),0));
+const {test}=require('node:test');const assert=require('node:assert/strict');const sum=require('./sum.cjs');test('positive',()=>assert.equal(sum(2,3),5));test('negative',()=>assert.equal(sum(-2,2),0));test('subtract',()=>assert.equal(sum.subtract(5,2),3));
